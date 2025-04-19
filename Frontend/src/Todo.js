@@ -13,7 +13,7 @@ export default function Todo(){
     const [error , setError] = useState('');
     const [success , setSuccess] = useState('');
     const [editingId , setEditingId] = useState(-1);
-    const apiUrl = "http://localhost:3002";
+    const apiUrl = "https://mern-todolsit-server.onrender.com";
     const handleSubmit =()=>{
         setError('')
         // check inputs
